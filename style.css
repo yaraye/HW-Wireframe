@@ -27,12 +27,10 @@ nav {
 
 #section {
     background-color: #ebebeb;
-    width: 244px;
+    width: 495px;
     padding: 50px;
     float: left;
     height: 132px;
-    
-
     
 }
 
@@ -50,7 +48,8 @@ h1,p{
 }
     
 aside {
-    
+    float: left;
+    width: 49%;  
 }
     
 
