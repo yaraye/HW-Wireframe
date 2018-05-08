@@ -3,64 +3,58 @@ body {
     color: #777;
     background: #777;
     font-size: 18px;
-    margin-left: 70px;
-    margin-right: 100px;
+    margin: auto;
     text-align: center;
+    width: 960px;
+    }
     
-
+header, nav, section, aside, footer {
+        display : block;
+        background-color: #ebebeb;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;  
 }
-
-header {
-    background-color: #ebebeb;
-    padding: 20px;
-    width: 100%;
-    
-}
-nav {
-    background-color: #ebebeb;
-    width: 100%;
-    margin-top: 5px;
-    padding: 20px;
-    margin-bottom: 10px;
    
-}
 
 #section {
     background-color: #ebebeb;
-    width: 495px;
-    padding: 50px;
+    width: 50%;
     float: left;
-    height: 132px;
-    
+    height: 267px;
+    display: block;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    padding: 10px;
 }
 
 
 h1,p{
     color: #777;
-    background: #ebebeb;
+    background:#ebebeb;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;       
 }
-    
-aside {
-    float: left;
-    width: 49%;  
-}
-    
 
+aside {
+    float: right;
+    width: 40%;  
+    height: 267px;
+    display: block;
+    overflow: hidden;   
+}   
 
 footer {
     background-color: #ebebeb;
     padding: 20px;
     float: left;
-    width: 100%;
+    width: 94%;
     clear: both;
     overflow: auto;
-    margin-top: 10px;
-    
+    margin-top: 10px;  
 }
